@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping-Pong game</title>   
+    <style>
+        body{
+            background-color: lavenderblush;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+        
+    </style>
+</head>
+<body>
+    each i in ['purple','medium-blue','light-blue', 'red', 'orange', 'yellow', 'cyan', 'light-green', 'lime', 'magenta', 'lightish-red', 'pink']
+  div(class=i)
+
+    <h2 style="text-align: center;"><b>Ping-Pong Game</b></h2>
+    <canvas id="pong" width="600" height="400"></canvas>
+    <script src="ping_pong.js"></script> 
+</body>
+</html>
